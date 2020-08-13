@@ -1,0 +1,31 @@
+﻿<Window x:Class="Wpf_Getting_Data_From_TextBox_and_Using_Button_Click.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Getting_Data_From_TextBox_and_Using_Button_Click"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--Just Drag and Drop a TextBox and a Button From the toolbox inside the Grid-->
+    <Grid>
+        <!--Auto Generated Xaml Code
+        Add a name to the TextBox to access it in the C# code-->
+        <TextBox     
+            Name="MyTextBox"    
+            HorizontalAlignment="Left"
+            Height="39" 
+            Margin="314,131,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="176"/>
+        <!--Add a Click attribute in button and name a function
+        Taake hum C# k code me function call kr den jb ye button click ho-->
+        <Button
+            Click="Button_Click"
+            Content="Button"
+            HorizontalAlignment="Left"
+            Margin="352,240,0,0"
+            VerticalAlignment="Top"
+            Width="74"/>
+    </Grid>
+</Window>

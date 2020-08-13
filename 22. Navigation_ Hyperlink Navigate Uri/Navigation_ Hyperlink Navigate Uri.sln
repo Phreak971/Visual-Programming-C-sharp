@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation_ Hyperlink Navigate Uri", "Navigation_ Hyperlink Navigate Uri.csproj", "{3EEC9FEF-9E98-4926-AF40-997FB8238C44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EEC9FEF-9E98-4926-AF40-997FB8238C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEC9FEF-9E98-4926-AF40-997FB8238C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEC9FEF-9E98-4926-AF40-997FB8238C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEC9FEF-9E98-4926-AF40-997FB8238C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C141A361-4880-4B21-8C4A-DD8FC7969A63}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<Page x:Class="Navigation_Click_Button_or_HyperLink_Csharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Navigation_Click_Button_or_HyperLink_Csharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--Change from window to Page-->
+    <Grid>
+        <!--Add a button and a hyperlink in a textblock-->
+        <Button Click="Click_Navigation" Margin="327,122,327,253" Content="Navigate Button"/>
+        <TextBlock TextAlignment="Center" Margin="327,200,327,189">
+            <Hyperlink Click="Click_Navigation">
+                Naviagte Hyperlink
+            </Hyperlink>
+        </TextBlock>
+        <!--Both call the Click_Navigation EventHandler-->
+    </Grid>
+</Page>

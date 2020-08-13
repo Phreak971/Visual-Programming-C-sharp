@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_Data Structures Array", "Console_Data Structures Array.csproj", "{E709356E-4F60-4A98-B2E4-1E4BFFA19E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E709356E-4F60-4A98-B2E4-1E4BFFA19E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E709356E-4F60-4A98-B2E4-1E4BFFA19E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E709356E-4F60-4A98-B2E4-1E4BFFA19E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E709356E-4F60-4A98-B2E4-1E4BFFA19E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E7C22C6-56DF-4D0F-940E-B49FD6CF4197}
+	EndGlobalSection
+EndGlobal

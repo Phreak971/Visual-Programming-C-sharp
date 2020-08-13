@@ -1,0 +1,23 @@
+﻿<Page x:Class="Database_saving_and_getting_data.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database_saving_and_getting_data"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Name" Margin="96,71,628,355"/>
+        <TextBox Name="tb_name" Margin="172,71,459,355"/>
+        <Label Content="Roll Number " Margin="96,100,628,326"/>
+        <TextBox Name="tb_rollnumber" Margin="172,100,459,326"/>
+        <Label Content="Address" Margin="96,129,628,297"/>
+        <TextBox Name="tb_address" Margin="172,129,459,297"/>
+        <Button Content="Save To Database" Margin="172,164,528,255" Click="Save"/>
+        <Button Content="Show Data" Margin="277,164,459,255" Click="GetandShow"/>
+        <TextBlock Height="Auto" Background="Wheat" Name="tb_show" Margin="0,213,0,0"/>
+        <!--Added 3 textboxes-->
+        <!--The buttons will save data to database and get data
+        from database and show in Message Box Rescpectively-->
+    </Grid>
+</Page>
